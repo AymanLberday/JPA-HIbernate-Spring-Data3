@@ -20,6 +20,7 @@ public class JpaApplication {
 		SpringApplication.run(JpaApplication.class, args);
 	}
 
+
 	@Bean
 	CommandLineRunner start(UserService userService) {
 		return args -> {
